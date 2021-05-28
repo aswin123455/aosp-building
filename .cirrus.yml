@@ -13,8 +13,8 @@ env: # Environment variables to pass to all tasks
     id_rsa_pub: "empty"
     id_rsa: "empty"
     known_hosts: "empty"
-    user_email: "aswinsanker08@gmail.com"
-    user_name: "aswin11234"
+    user_email: "aswinhavoc541@gmail.com"
+    user_name: "aswin123455"
     user_pass: "empty"
 
 task:
