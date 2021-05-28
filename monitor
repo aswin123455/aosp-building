@@ -20,7 +20,7 @@ while : # Loop to check ccache and machine status every 10 minutes
 do
 (ccache -s && echo '' && free -h && echo '' && df -h) | tee monitor.txt
 tg_sendFile "monitor.txt"
-sleep 3s  # Those sleep times are included to prevent interference issues when sending messages/files to bot.
+sleep 2s  # Those sleep times are included to prevent interference issues when sending messages/files to bot.
 
 # Save the last 25 lines of the compilation log in a file and upload to telegram.
 tail -n 25 build.txt > status.txt
